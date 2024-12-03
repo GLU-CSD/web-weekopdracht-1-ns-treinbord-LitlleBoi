@@ -1,9 +1,17 @@
+
+body{
+    background-image: url(../img/treinbord.webp);
+}
+
 #container{
+    opacity: 0.5;
     width: 936px;
     display: flex;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
     border: 2px solid #000;
+    margin-left: 124px;
+    margin-top: 146px;
 }
 
 #left{
@@ -27,4 +35,38 @@
     height: 335px;
     background-color: rgb(0, 0, 106);
     border: 2px solid #000;
+}
+
+.witvierkantrechts{
+    position: relative;
+    width:94px;
+    height: 94px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 36px;
+    margin-left: 15px;
+}
+
+.blauwvierkantrechts{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 0, 106);
+}
+
+.achtien{
+    position: absolute;
+    font-size: 65px;
+    color: rgb(0, 0, 106);
+    margin-top: 25px;
+    margin-left: 0px;
+}
+
+.letterb{
+    position: absolute;
+    font-size: 35px;
+    color: rgb(0, 0, 106);
+    margin-top: 30px;
+    margin-left: 70px;
 }
